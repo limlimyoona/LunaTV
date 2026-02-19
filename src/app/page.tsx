@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any, react-hooks/exhaustive-deps, no-console */
 
 'use client';
-
+ 
 import { ChevronRight, Film, Tv, Calendar, Sparkles, Play, Trash2 } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense, useEffect, useState, useRef, useMemo, useReducer, useTransition } from 'react';
