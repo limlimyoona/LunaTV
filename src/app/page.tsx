@@ -652,34 +652,6 @@ function HomeClient() {
 
   return (
     <PageLayout>
-      {/* Telegram 新用户欢迎弹窗 */}
-      <TelegramWelcomeModal />
-
-      <div className='overflow-visible -mt-6 md:mt-0 pb-32 md:pb-safe-bottom'>
-        {/* 欢迎横幅 - 现代化精简设计 */}
-        <div className='mb-6 relative overflow-hidden rounded-xl bg-linear-to-r from-blue-500/90 via-purple-500/90 to-pink-500/90 backdrop-blur-sm shadow-xl border border-white/20'>
-          <div className='relative p-4 sm:p-5'>
-            {/* 动态渐变背景 */}
-            <div className='absolute inset-0 bg-linear-to-br from-white/5 via-transparent to-black/5'></div>
-
-            <div className='relative z-10 flex items-center justify-between gap-4'>
-              <div className='flex-1 min-w-0'>
-                <h2 className='text-lg sm:text-xl font-bold text-white mb-1 flex items-center gap-2 flex-wrap'>
-                  <span>
-                    {greeting}
-                    {username && '，'}
-                  </span>
-                  {username && (
-                    <span className='text-yellow-300 font-semibold'>
-                      {username}
-                    </span>
-                  )}
-                  <span className='inline-block animate-wave origin-bottom-right'>👋</span>
-                </h2>
-                <p className='text-sm text-white/90'>
-                  发现更多精彩影视内容 ✨
-                </p>
-              </div>
 
               {/* 装饰图标 - 更小更精致 */}
               <div className='hidden md:flex items-center justify-center shrink-0 w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20'>
